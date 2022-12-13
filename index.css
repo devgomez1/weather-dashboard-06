@@ -3,6 +3,7 @@
     justify-content: center;
 }
 
-#searchHistory.html {
-    margin-left: 10px;
+#searchHistory {
+    font-size: 20px;
+    
 }

@@ -46,7 +46,7 @@ function searchHistory() {
   var inputval = document.getElementById("Input").value;
   history.push(inputval);
   console.log(history);
-  document.getElementById("searchHistory").innerHTML = history;
+  document.getElementById("searchHistory").innerHTML = "City of  " + history;
 }
 
   
