@@ -18,8 +18,7 @@ function displaySearched(city) {
             <h4 class="text-center">Humidity:${data.list[0].main.humidity}</h4>
             <h4 class="text-center">Wind Speed:${data.list[0].wind.speed}</h4>
           </div>`;
-                
-        document.getElementById("currentDay").innerHTML = currentWeather;
+            document.getElementById("currentDay").innerHTML = currentWeather;
 
         //current weather versus coming weather
 
@@ -33,10 +32,7 @@ function displaySearched(city) {
             <h4>Wind Speed:${data.list[i].wind.speed}</h4>
           </div>`;
             document.getElementById("otherDays").innerHTML = comingDays;
-        }
-      }
-    )
-  }
+        }})}
 
 function citySearch() {
   var searchedCity=document.getElementById("Input").value;
