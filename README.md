@@ -49,6 +49,7 @@ Returns all sorts of information on the forcast of the searched city.
 
  https://devgomez1.github.io/weather-dashboard-06/
 
+![example](./images/Screenshot%202022-12-13%20204359.png)
 
 ## 🔗 Links
 
